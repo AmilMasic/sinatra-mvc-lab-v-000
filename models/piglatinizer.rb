@@ -22,7 +22,7 @@ class PigLatinizer
     elsif consonants.include?(word[0])
       word[1..-1] + word[0] + "ay"
      else #vowels.include?(word[0])
-      word + "way"
+      # word + "way"
     end
 
   end
