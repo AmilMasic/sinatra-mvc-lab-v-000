@@ -4,8 +4,8 @@ class PigLatinizer
 
   def piglatinize_sentence(sentence)
     sentence_separated = sentence.split(" ")
-    sentence_reconstructed = sentence_separated.map {|word| piglatinize(word)}
-    sentence_reconstructed.join(" ")
+    sentence_separated.map {|word| piglatinize(word)}.join(" ")
+    
 
   end
 
