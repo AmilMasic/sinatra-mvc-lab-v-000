@@ -1,5 +1,5 @@
 class PigLatinizer
-  attr_reader :words
+  attr_reader :word
 
 
   def piglatinize_sentence(sentence)
