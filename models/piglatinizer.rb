@@ -1,11 +1,11 @@
 class PigLatinizer
-  attr_reader :word
+  # attr_reader :word
 
 
   def piglatinize_sentence(sentence)
     sentence_separated = sentence.split(" ")
     sentence_separated.map {|word| piglatinize(word)}.join(" ")
-    
+
 
   end
 
