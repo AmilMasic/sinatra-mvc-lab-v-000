@@ -7,6 +7,6 @@ class App < Sinatra::Base
   end
 
   post '/' do
-    @analyzed_text = params[:user_input]
+    @analyzed_text = params[:user_phrase]
   end
 end
