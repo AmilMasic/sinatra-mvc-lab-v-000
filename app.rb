@@ -6,7 +6,7 @@ class App < Sinatra::Base
     erb :user_phrase
   end
 
-  post '/' do
+  post '/piglatinize' do
     @analyzed_text = params[:user_phrase]
   end
 end
